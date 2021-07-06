@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>learn firebase</h1>
+    <h1>Register</h1>
+    <form id="addUser">
+      <label for="firstname">First name:</label><br>
+      <input type="text" name="firstname"><br>
+      <label for="lastname">Last name:</label><br>
+      <input type="text" name="lastname"><br>
+      <label for="studentid">Student ID:</label><br>
+      <input type="text" name="studentid"><br>
+      <button>Submit</button>
+    </form>
+    <ul id="userList">
+
+    </ul>
+  </div>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyD471eHvQ-ZWZVXHYDu2j4VBk9xPo7vq00",
+        authDomain: "line-webapp-1521a.firebaseapp.com",
+        projectId: "line-webapp-1521a",
+        storageBucket: "line-webapp-1521a.appspot.com",
+        messagingSenderId: "784228086760",
+        appId: "1:784228086760:web:3fff13102a409638cf6a5d",
+        measurementId: "G-19PJ9CXSX0"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    const db = firebase.firestore();
+  </script>
+
+  <script src="index.js"></script>
+
+
+</body>
+
+</html>

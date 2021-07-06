@@ -1,0 +1,25 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  span {
+    display: block;
+  }
+  
+  span:nth-child(1) {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  span:nth-child(2) {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
