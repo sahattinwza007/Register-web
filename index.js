@@ -78,7 +78,7 @@ async function main() {
   }
 
   // Try a LIFF function
-  await liff.init({liffId: '1656129299-PLzNKdpa' });
+  await liff.init({liffId: "1656129299-LWZXKJ5v" });
 
   if (!liff.isInClient()) {
     if (liff.isLoggedIn()) {
